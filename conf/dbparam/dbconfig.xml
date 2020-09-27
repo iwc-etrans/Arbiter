@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-->
+type - 数据库类型
+host - 服务器IP
+port - 端口
+sid - oracle实例
+server_name - 服务名称
+username - 用户
+password - 密码
+<-->
+<configuration>
+
+    <auth id="POSTGRESQL_172.21.86.201">
+        <dbtype>POSTGRESQL</dbtype>
+        <host>172.21.86.201</host>
+        <port>5432</port>
+        <user>pgtest</user>
+        <passwd>UPscGj8PuIBzZEvuJqdiMz/u0mbrxwVQh06nTFIM3Esg0tD2B0iADAa6Zf0MGescBtPzpbVdoRolX7+Ce3+D6A==</passwd>
+        <dbname>test</dbname>
+    </auth>
+
+    <auth id="ORACLE_172.21.86.201">
+        <dbtype>ORACLE</dbtype>
+        <host>172.21.86.201</host>
+        <port>1521</port>
+        <user>scott</user>
+        <passwd>UPscGj8PuIBzZEvuJqdiMz/u0mbrxwVQh06nTFIM3Esg0tD2B0iADAa6Zf0MGescBtPzpbVdoRolX7+Ce3+D6A==</passwd>
+        <dbname>ORCL</dbname>
+    </auth>
+
+    <auth id="MYSQL_172.21.86.205">
+        <dbtype>MYSQL</dbtype>
+        <host>172.21.86.205</host>
+        <port>3306</port>
+        <user>root</user>
+        <passwd>UPscGj8PuIBzZEvuJqdiMz/u0mbrxwVQh06nTFIM3Esg0tD2B0iADAa6Zf0MGescBtPzpbVdoRolX7+Ce3+D6A==</passwd>
+        <dbname>test</dbname>
+    </auth>
+
+    <auth id="MGR_172.21.86.205">
+        <dbtype>MYSQL</dbtype>
+        <host>172.21.86.205</host>
+        <port>3306</port>
+        <user>root</user>
+        <passwd>UPscGj8PuIBzZEvuJqdiMz/u0mbrxwVQh06nTFIM3Esg0tD2B0iADAa6Zf0MGescBtPzpbVdoRolX7+Ce3+D6A==</passwd>
+        <dbname>dbsyncer</dbname>
+    </auth>
+
+</configuration>
